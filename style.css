@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/one-piece');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "SUSE", sans-serif;
+    background-color: black;
+}
+
+nav li{
+    list-style: none;
+    padding: 22px;
+}
+nav h1{
+    font-family: 'One Piece', sans-serif;
+    margin-top: 18px;
+    color: white;
+    filter: drop-shadow(2px 2px 2px black);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav ul {
+    display: flex;
+    padding: 10px;
+}
+nav button{
+    width: 90px;
+    height: 50px;
+    margin-top: 18px;
+    border-radius: 60px;
+    background-color: transparent;
+    font-family: "SUSE", sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    filter: drop-shadow(2px 2px 2px black);
+    backdrop-filter: blur(10px);
+    border: 3px solid white;
+    cursor: pointer;
+}
+nav button:hover{
+    border: 3px solid aqua;
+}
+
+
+
+
+.bgvid{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+nav a{
+    transform: scale(1);
+    transition: 0.2s ease;
+}
+nav a:hover{
+    transform: scale(1.2);
+    color: aqua;
+}
+.section1{
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin-top: 200px;
+    text-shadow: 1px 1px 3px black;
+}
+.section1 h1{
+    font-size: 60px;
+}
+.section1 p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.section2{
+    font-family: 'One Piece', sans-serif;
+    margin-top: 270px;
+    background-color: black;
+  
+    height: 100vh;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 1px 3px black;
+    border-radius: 80px;
+
+}
+.section2 u{
+    color: white;
+}
+.box{
+    margin: 10px;
+    position: absolute;
+    height: 100%;
+    width: 99%;
+    border: 3px solid white;
+    border-radius: 80px;
+    
+}
+.section2 h1{
+    margin-top: 50px;
+}
+.wallps img{
+    justify-content: space-around;
+    padding: 80px;
+}
+.btn{
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 3px solid aqua;
+    transform: scale(1);
+    transform: rotate3d(0);
+    transition: 0.2s ease;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
